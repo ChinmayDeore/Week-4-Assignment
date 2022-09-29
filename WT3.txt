@@ -1,0 +1,10 @@
+## Chinmay D. 9/21/2022
+import math
+## imports math function in python
+def WorkTicketThree():
+    r = float(input("Radius ="))
+## floats any possible decimal inputs the user can enter
+    a = math.pi*r*r
+    print("Area =",a)
+WorkTicketThree()
+## Calls the function and ends the program

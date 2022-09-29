@@ -1,0 +1,11 @@
+## Chinmay D. 9/21/2022
+def WorkTicketOne():
+    words = input('Please enter a string: ')
+## Accepts user input of a word
+    print('You entered',words,'and its type is',type(words))
+## Uses types to identify and print whether this is a type of string or integer input
+    numbr = input('Plese enter an integer: ')
+    numbr = int(numbr)
+    print('You enter', numbr, 'and its type is',type(numbr))
+WorkTicketOne()
+## Calls the function and ends the program
